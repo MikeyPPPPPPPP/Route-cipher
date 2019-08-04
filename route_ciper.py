@@ -140,10 +140,11 @@ def route_9(mess):
             row1.append(mess[x])
     row2.append(mess[8])
     row2.append(mess[5])
-
+    '''
     print(row1)
     print(row2)
     print(row3)
+    '''
     for x in row1:
         combined_list.append(x)
 
@@ -220,10 +221,12 @@ def route_16(mess):
     row3.append(mess[14])
     row3.append(mess[7])
 
+    '''
     print(row1)
     print(row2)
     print(row3)
     print(row4)
+    '''
 
     for x in row1:
         combined_list.append(x)
@@ -297,4 +300,4 @@ def route_26(mess):
 
     #return row1, row2, row3, row4, row5
 
-print(get_process(message))
+get_process(message)
